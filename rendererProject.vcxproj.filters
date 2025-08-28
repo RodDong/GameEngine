@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cpp\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cpp\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cpp\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cpp\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cpp\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cpp\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cpp\Arrow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cpp\ShaderPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\resources\shaders\3.3.shader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\3.3.shader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\lightShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\lightShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\screenShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\screenShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\skyBoxShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\skyBoxShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\reflectiveShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\reflectiveShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\normalDisplay.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\normalDisplay.gs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\normalDisplay.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\simpleDepthShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\simpleDepthShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\debugQuad.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\debugQuad.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\floorShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\floorShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\pointShadowDepth.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\pointShadowDepth.gs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\pointShadowDepth.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\arrowShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\arrowShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\blur.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\blur.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\gBuffer.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\gBuffer.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\deferredShading.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source\resources\shaders\deferredShading.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="source\resources\textures\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="source\resources\textures\awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="source\resources\textures\containerDiffuse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="source\resources\textures\containerSpecular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="source\resources\textures\skybox\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="source\resources\textures\skybox\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="source\resources\textures\skybox\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="source\resources\textures\skybox\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="source\resources\textures\skybox\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="source\resources\textures\skybox\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="source\resources\textures\wood_floor_diff_4k.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\header\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\Arrow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\ShaderPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

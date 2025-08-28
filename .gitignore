@@ -1,0 +1,62 @@
+# 用户特定文件
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 构建结果
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+
+# Visual Studio 生成的文件
+.vs/
+*.vcxproj.user
+*.db
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# 编译缓存
+ipch/
+*.aps
+*.ncb
+*.sdf
+*.cachefile
+
+# 备份和测试文件
+*.bak
+*.tmp
+*.testsettings
+*.vspscc
+*.vssscc
+
+# NuGet 包
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Rider / ReSharper
+.idea/
+*.DotSettings.user
+
+# 其他常见忽略
+*.pdb
+*.mdb
+*.ilk
+*.obj
+*.pch
+*.exe
+*.dll
+*.lib
+*.log
+*.tlog
+*.idb
+*.ipdb
+*.iobj
+*.sbr
+*.tlh
+*.tli
