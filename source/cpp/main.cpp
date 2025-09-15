@@ -760,20 +760,20 @@ int main()
         renderQuad(quadVAO);
 
 
-        ////render skyBox
-        //glDepthFunc(GL_LEQUAL);  // change depth function so depth test passes when values are equal to depth buffer's content
-        //glDepthMask(GL_FALSE);   // disable writing to depth buffer
+        //render skyBox
+        glDepthFunc(GL_GEQUAL);  // change depth function so depth test passes when values are equal to depth buffer's content
+        glDepthMask(GL_FALSE);   // disable writing to depth buffer
 
-        //// skybox cube
-        //skyBoxShader.use();
-        //glBindVertexArray(skyboxVAO);
-        //glActiveTexture(GL_TEXTURE0);
-        //glBindTexture(GL_TEXTURE_CUBE_MAP, cubemapTexture);
-        //glDrawArrays(GL_TRIANGLES, 0, 36);
-        //glBindVertexArray(0);
+        // skybox cube
+        skyBoxShader.use();
+        glBindVertexArray(skyboxVAO);
+        glActiveTexture(GL_TEXTURE0);
+        glBindTexture(GL_TEXTURE_CUBE_MAP, cubemapTexture);
+        glDrawArrays(GL_TRIANGLES, 0, 36);
+        glBindVertexArray(0);
 
-        //glDepthMask(GL_TRUE);    // re-enable writing to depth buffer
-        //glDepthFunc(GL_LESS);    // set depth function back to default
+        glDepthMask(GL_TRUE);    // re-enable writing to depth buffer
+        glDepthFunc(GL_LESS);    // set depth function back to default
 
         glEnable(GL_DEPTH_TEST);
         glBindFramebuffer(GL_FRAMEBUFFER, 0);
