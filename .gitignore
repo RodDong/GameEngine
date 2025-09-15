@@ -50,7 +50,6 @@ packages/
 *.pch
 *.exe
 *.dll
-*.lib
 *.log
 *.tlog
 *.idb
